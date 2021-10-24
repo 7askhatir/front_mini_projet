@@ -13,6 +13,6 @@ class SaveDevice{
         'brand': this.Brand,
         'memory':this.Memory,
         'ram':this.Ram,
-        'isActivated':"1",
+        'isActivated':this.IsActivated ?"1" :"0",
       };
 }
